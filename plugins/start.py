@@ -123,10 +123,10 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
-                url = f"https://t.me/Crunchyroll_Anime_Channel"),
+                "⛩️ Ｃʜᴀɴɴᴇʟ 1 ⛩️",
+                url = f"https://t.me/Oregairu_in_Hindi_Dubbed"),
             InlineKeyboardButton(
-                "Join Channel 2",
+                "⛩️ Ｃʜᴀɴɴᴇʟ 2 ⛩️",
                 url = client.invitelink)
         ]  
     ]
@@ -134,7 +134,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = '‼️ Ｔʀʏ Ａɢᴀɪɴ ‼️',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
